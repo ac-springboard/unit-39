@@ -2,3 +2,5 @@
 node_m/
 node_modules/
 coverage/
+/react-testing-demo/testing-demo/nbproject/private/
+/react-testing-demo/testing-demo_1/nbproject/private/
