@@ -5,24 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
-            "name": "vscode-jest-tests",
-            "runtimeExecutable": "/home/acampos/.nvm/versions/node/v14.17.1/bin/node",
-            "request": "launch",
-            "program": "${workspaceFolder}/node_modules/.bin/jest",
-            "args": [
-                "--watchAll=false".
-                "--fileBasename=Counter.test.js"
-            ],
-            "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "disableOptimisticBPs": true,
-            "windows": {
-                "program": "${workspaceFolder}/node_modules/jest/bin/jest"
-            }
-        },
-        {
             "name": "1 - Launch Chrome",
             "request": "launch",
             "type": "pwa-chrome",
@@ -37,8 +19,8 @@
         {
             "name": "2 - Launch App via NPM",
             "type": "node",
+            "runtimeExecutable": "/home/acampos/.nvm/versions/node/v16.1.0/bin/npm",
             "request": "launch",
-            "runtimeExecutable": "/home/acampos/.nvm/versions/node/v14.17.1/bin/npm",
             "runtimeArgs": [
                 "start"
             ],
@@ -46,6 +28,5 @@
                 "<node_internals>/**"
             ]
         }
-       
     ]
 }

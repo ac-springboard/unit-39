@@ -1,0 +1,9 @@
+{
+    "jest.jestCommandLine": "/home/acampos/.nvm/versions/node/v16.1.0/bin/jest",
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "files.watcherExclude": {
+        "**/node_modules/**": false
+    }
+ }
